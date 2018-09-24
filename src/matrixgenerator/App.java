@@ -45,7 +45,7 @@ public class App extends JFrame {
 
     //Constructor
     public App() {
-        super("Matrix Generator");
+        super("Seurat Matrix Generator");
         txtField = new JTextField[2];
         button = new JButton[3];
         label = new JLabel[4];

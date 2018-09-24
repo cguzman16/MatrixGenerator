@@ -5,15 +5,15 @@
  */
 package matrixgenerator;
 
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author carolynguzman
  */
 public class mtxGenException extends Exception {
 
-    private String exceptionType, message;
+    private final String exceptionType;
+    private String message;
+    
     public mtxGenException(String exceptionType) {
         this.exceptionType = exceptionType;
         setError();

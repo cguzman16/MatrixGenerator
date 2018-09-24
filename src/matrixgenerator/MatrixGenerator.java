@@ -111,7 +111,7 @@ public class MatrixGenerator {
             row++;
         }
         
-        valueArray.set(1, geneArray.size() + " " + barcodeArray.size() + " " + (valueArray.size() - 2));
+        valueArray.set(1, geneArray.size() + " " + (barcodeArray.size() - 1) + " " + (valueArray.size() - 2));
         
         Files.write(Paths.get(outputDirectory + "/matrix.mtx"),
                 valueArray,
