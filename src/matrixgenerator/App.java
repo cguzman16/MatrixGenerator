@@ -45,7 +45,7 @@ public class App extends JFrame {
 
     //Constructor
     public App() {
-        super("Seurat Matrix Generator");
+        super("Seurat Sparse Matrix Generator");
         txtField = new JTextField[2];
         button = new JButton[3];
         label = new JLabel[4];
@@ -114,7 +114,7 @@ public class App extends JFrame {
         label[0].setFont(font);
         label[1] = new JLabel("Output directory:", JLabel.CENTER);
         label[1].setFont(font);
-        label[2] = new JLabel("Report bugs to: carolyn.guzman@utdallas.edu\t", JLabel.RIGHT);
+        label[2] = new JLabel("Report bugs to: carolyn.guzman@utdallas.edu\t\t", JLabel.RIGHT);
         label[2].setFont(font);
         label[3] = new JLabel();
         label[3].setFont(font);
